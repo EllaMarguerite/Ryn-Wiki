@@ -13,7 +13,7 @@ type Props<T extends CollectionKey> = {
   tagsBasePath?: string
 }
 
-const { post, detailed = false, class: className, basePath = '/blog', tagsBasePath = '/tags' } = Astro.props
+const { post, detailed = false, class: className, basePath = '/blog', tagsBasePath = '/blog/tags' } = Astro.props
 const { id, data } = post
 const { remarkPluginFrontmatter } = await render(post)
 const postDate = data.updatedDate ?? data.publishDate
