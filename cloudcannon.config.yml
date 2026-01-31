@@ -18,27 +18,31 @@ collections_config:
     disable_file_actions: false
   docs_characters:
     path: src/content/docs/characters
-    icon: docs_add_on
+    name: Characters
+    icon: person
     disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   docs_factions:
     path: src/content/docs/factions
-    icon: celebration
+    name: Factions
+    icon: groups
     disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   docs_locations:
     path: src/content/docs/locations
-    icon: dataset
+    name: Locations
+    icon: mountain_flag
     disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   docs_lore:
     path: src/content/docs/lore
+    name: Lore
     icon: auto_stories
     disable_url: false
     disable_add: false
@@ -46,20 +50,23 @@ collections_config:
     disable_file_actions: false
   docs_quests:
     path: src/content/docs/quests
-    icon: assignment
+    name: Quests
+    icon: exclamation
     disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   docs_items:
     path: src/content/docs/items
-    icon: inventory_2
+    name: Items
+    icon: swords
     disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   docs_magic:
     path: src/content/docs/magic
+    name: Magic
     icon: auto_awesome
     disable_url: false
     disable_add: false
@@ -67,6 +74,7 @@ collections_config:
     disable_file_actions: false
   docs_creatures:
     path: src/content/docs/creatures
+    name: Creatures
     icon: pets
     disable_url: false
     disable_add: false
@@ -74,67 +82,14 @@ collections_config:
     disable_file_actions: false
   docs_campaign_log:
     path: src/content/docs/campaign-log
+    name: Campaign Log
     icon: history
     disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  pages_about:
-    path: src/pages/about
-    icon: all_out
-    disable_url: false
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-  pages_archives:
-    path: src/pages/archives
-    icon: archive
-    disable_url: false
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-  pages_docs:
-    path: src/pages/docs
-    icon: bike_dock
-    disable_url: false
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-  pages_links:
-    path: src/pages/links
-    icon: page_info
-    disable_url: false
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-  pages_projects:
-    path: src/pages/projects
-    icon: nest_protect
-    disable_url: false
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-  pages_search:
-    path: src/pages/search
-    icon: image_search
-    disable_url: false
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-  pages_tags:
-    path: src/pages/tags
-    icon: car_tag
-    disable_url: false
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-  pages_terms:
-    path: src/pages/terms
-    icon: pageless
-    disable_url: false
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
+commit_templates:
+  - template_string: '{message}'
 timezone: Pacific/Auckland
 markdown:
   engine: commonmark
