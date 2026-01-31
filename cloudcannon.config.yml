@@ -16,23 +16,65 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  docs_advanced:
-    path: src/content/docs/advanced
+  docs_characters:
+    path: src/content/docs/characters
     icon: docs_add_on
     disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  docs_integrations:
-    path: src/content/docs/integrations
+  docs_factions:
+    path: src/content/docs/factions
     icon: celebration
     disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  docs_setup:
-    path: src/content/docs/setup
+  docs_locations:
+    path: src/content/docs/locations
     icon: dataset
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  docs_lore:
+    path: src/content/docs/lore
+    icon: auto_stories
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  docs_quests:
+    path: src/content/docs/quests
+    icon: assignment
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  docs_items:
+    path: src/content/docs/items
+    icon: inventory_2
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  docs_magic:
+    path: src/content/docs/magic
+    icon: auto_awesome
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  docs_creatures:
+    path: src/content/docs/creatures
+    icon: pets
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  docs_campaign_log:
+    path: src/content/docs/campaign-log
+    icon: history
     disable_url: false
     disable_add: false
     disable_add_folder: false
