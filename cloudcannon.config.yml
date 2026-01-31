@@ -16,83 +16,80 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  docs_advanced:
-    path: src/content/docs/advanced
-    icon: docs_add_on
+  docs_characters:
+    path: src/content/docs/characters
+    name: Characters
+    icon: person
     disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  docs_integrations:
-    path: src/content/docs/integrations
-    icon: celebration
+  docs_factions:
+    path: src/content/docs/factions
+    name: Factions
+    icon: groups
     disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  docs_setup:
-    path: src/content/docs/setup
-    icon: dataset
+  docs_locations:
+    path: src/content/docs/locations
+    name: Locations
+    icon: mountain_flag
     disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  pages_about:
-    path: src/pages/about
-    icon: all_out
+  docs_lore:
+    path: src/content/docs/lore
+    name: Lore
+    icon: auto_stories
     disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  pages_archives:
-    path: src/pages/archives
-    icon: archive
+  docs_quests:
+    path: src/content/docs/quests
+    name: Quests
+    icon: exclamation
     disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  pages_docs:
-    path: src/pages/docs
-    icon: bike_dock
+  docs_items:
+    path: src/content/docs/items
+    name: Items
+    icon: swords
     disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  pages_links:
-    path: src/pages/links
-    icon: page_info
+  docs_magic:
+    path: src/content/docs/magic
+    name: Magic
+    icon: auto_awesome
     disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  pages_projects:
-    path: src/pages/projects
-    icon: nest_protect
+  docs_creatures:
+    path: src/content/docs/creatures
+    name: Creatures
+    icon: pets
     disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  pages_search:
-    path: src/pages/search
-    icon: image_search
+  docs_campaign_log:
+    path: src/content/docs/campaign-log
+    name: Campaign Log
+    icon: history
     disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  pages_tags:
-    path: src/pages/tags
-    icon: car_tag
-    disable_url: false
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-  pages_terms:
-    path: src/pages/terms
-    icon: pageless
-    disable_url: false
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
+commit_templates:
+  - template_string: '{message}'
 timezone: Pacific/Auckland
 markdown:
   engine: commonmark
