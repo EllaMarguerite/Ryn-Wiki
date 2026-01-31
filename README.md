@@ -56,7 +56,7 @@ See [astro-theme-pure](https://www.npmjs.com/package/astro-pure) on npm.
 
 Environment requirements:
 
-- [Nodejs](https://nodejs.org/): 18.0.0+
+- [Nodejs](https://nodejs.org/): 20.0.0+ (required for dependencies)
 
 Clone the repository:
 
