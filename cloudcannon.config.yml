@@ -92,14 +92,15 @@ _inputs:
   $.tags:
     type: multiselect
     options:
-      options:
+      allow_empty: true
       values: data.tags
+      required: true
     cascade: true
+commit_templates:
+  - template_string: '{message}'
 data_config:
   tags:
     path: data/tags.yml
-commit_templates:
-  - template_string: '{message}'
 timezone: Pacific/Auckland
 markdown:
   engine: commonmark
