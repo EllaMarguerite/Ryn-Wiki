@@ -92,8 +92,13 @@ _inputs:
   $.tags:
     type: multiselect
     options:
-      allow_empty: true
       values: _select_data.tags[?(@.type == 'docs')].name
+      required: true
+    cascade: true
+  $.place_of_operation:
+    type: multiselect
+    options:
+      values: collections.docs_locations.title
       required: true
     cascade: true
 _select_data:
