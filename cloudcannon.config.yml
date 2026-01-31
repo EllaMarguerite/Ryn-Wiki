@@ -100,7 +100,7 @@ commit_templates:
   - template_string: '{message}'
 data_config:
   tags:
-    path: data/tags.yml
+    path: src/data/tags.yml
 timezone: Pacific/Auckland
 markdown:
   engine: commonmark
