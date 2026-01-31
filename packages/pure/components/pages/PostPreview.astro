@@ -49,7 +49,7 @@ const postDate = data.updatedDate ?? data.publishDate
       class={cn('relative flex flex-col gap-1', !detailed && 'sm:flex-row sm:items-center')}
       style='z-index:1'
     >
-      <FormattedDate class='min-w-[95px] text-xs' date={postDate} />
+      {postDate && <FormattedDate class='min-w-[95px] text-xs' date={postDate} />}
 
       {/* title */}
       <div class='flex justify-between flex-grow'>
