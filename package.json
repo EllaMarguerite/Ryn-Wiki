@@ -13,7 +13,6 @@
     "dev": "astro dev",
     "dev:check": "astro check --watch & astro dev",
     "build": "node packages/pure/scripts/check.mjs && astro check && astro build",
-    "build:cloudcannon": "node packages/pure/scripts/check.mjs && astro check && astro build",
     "preview": "astro preview",
     "sync": "astro sync",
     "check": "astro check",
